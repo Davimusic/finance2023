@@ -6,7 +6,7 @@ function menu(){
     let divPadre = document.getElementById("padreMenu")
     divPadre.style.height = heightPantalla()
     divPadre.style.overflow = "scroll";
-    //divPadre.style.background = "red"
+    //divPadre.style.backgroundColor = '#3c817996';
     let anchoPantalla = window.innerWidth;
     let cod = "", display = "", anchoAUsar = "", clasEsconder = "", eventoMenuCelular = "";
     let alturaMenu = 30;
@@ -23,7 +23,7 @@ function menu(){
     
     cod += 
     `
-    <div id="menuDesplegable" style="margin: none; ${anchoAUsar}   background-image: url('https://res.cloudinary.com/dplncudbq/image/upload/v1670631081/mias/fondoConta_wlzfws.png');"  class="sticky sobresalir contenedorGaleria flex">
+    <div id="menuDesplegable" style="margin: none; ${anchoAUsar} background-image: url('https://res.cloudinary.com/dplncudbq/image/upload/v1670631081/mias/fondoConta_wlzfws.png');"  class="sticky sobresalir contenedorGaleria flex">
         <ul class="${display} espacioEquilatero ListaLimpia">
     `
         for (let i = 0; i < arr.length; i++) {
