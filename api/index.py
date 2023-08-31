@@ -3,6 +3,7 @@ import pymongo
 from bson.objectid import ObjectId  # para poder usar _id de mongo
 from datetime import datetime
 
+#30 de agosto
 
 app = Flask(__name__)
 app.secret_key = 'mi clave secreta'
